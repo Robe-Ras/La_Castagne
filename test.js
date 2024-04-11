@@ -364,13 +364,13 @@ class Character {
   }
   
   // Step 4: Start the game ################################################################
-  const gameInstance = new Game();
-  
   document.addEventListener('DOMContentLoaded', function() {
-    const startGameBtn = document.getElementById('start-game-btn');
-    startGameBtn.addEventListener('click', function() {
-        // Utilisez l'instance de Game pour démarrer le jeu
-        gameInstance.startGame();
+    const characterBtns = document.querySelectorAll('.character-btn');
+    characterBtns.forEach((btn, index) => {
+        btn.addEventListener('click', function() {
+            const gameInstance = new Game();
+            gameInstance.playerCharacter = gameInstance.characters[index];
+            gameInstance.startGame();
+        });
     });
-  });
-  
+});
