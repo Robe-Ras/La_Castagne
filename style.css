@@ -1,0 +1,89 @@
+.heading{
+  text-align: center;
+  margin-top: 10%;
+  font-family:'Poppins';
+  font-weight: 700;
+  user-select: none;
+  color: #ffffff; /* Définit la couleur du texte */
+}
+
+.title{
+  text-align: center;
+  font-family:'Poppins';
+  font-weight: 700;
+  font-size: 100px;
+  user-select: none;
+  color: #ffc32b; /* Définit la couleur du texte */
+
+}
+
+
+.body{
+  width: fit-content;
+  margin: 2% auto
+}
+
+.neoeffect{
+  cursor: pointer;
+  z-index: 2;
+  background-color: #ffc32b;
+  width: fit-content;
+  border-radius: 12px;
+  border: 2px solid #ac2200;
+  display: block;
+  transition: .3s ease;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 4px;
+  padding-bottom:4px;
+  transform: translate(-10px, -12px);
+}
+
+.button{
+  background-color: #ac2200;
+  width: fit-content;
+  border-radius: 12px;
+  color: #000940; /* Définit la couleur du texte */
+  position: absolute;
+  bottom: 50px;
+  right: 940px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.neoeffect:hover{
+  transform: translate(-10px,-16px)
+}
+
+.neoeffect:active{
+  transform: translate(0px,0px)
+}
+
+.text{
+  font-family:'Poppins';
+  font-weight: 700;
+  user-select: none;
+  
+}
+
+
+
+
+body {
+  background-image: url('https://i.ytimg.com/vi/4-eoG6stzOU/maxresdefault.jpg');
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'arrière-plan */
+  background-position: ; /* Centre l'image de fond */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image si elle est plus petite que l'arrière-plan */
+  /* Autres styles pour le corps de la page */
+  font-family: Arial, sans-serif; /* Définit la police de caractères */
+  color: #ffffff; /* Définit la couleur du texte */
+  
+}
+
+
+
+
+
+
+
