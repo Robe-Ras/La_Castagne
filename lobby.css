@@ -1,0 +1,50 @@
+.charselecthead { font-family: 'Press Start 2P', cursive; font-size: 45px; font-style: italic; }
+
+.charselect img { cursor: pointer; border-radius: 3px; border: 10px solid red; width: 250px; height: 300px; -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); transition: transform 1s;  margin: 5px;  }
+
+.charselect { display: inline-block; }
+.charselect img:hover { margin: 5px; z-index: 9; border: 10px solid rgba(226, 106, 106, .8); 
+  transition: all .5s; -webkit-filter: none; 
+}
+
+.img { position: relative; display: inline-block; }
+
+.overlay {
+   position: absolute;
+  bottom: 15px;
+  left: 14px;
+  right: 0;
+  transition: all .5s;
+  overflow: hidden;
+  height: 0; width: 251.5px; 
+  background: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+.img:hover .overlay,
+.overlay:hover {
+  height: 20%; 
+  background: rgba(226, 106, 106, .8);
+}
+.img > img {
+  display: block;/* Prevent inline gap under image*/
+}
+
+.imgtxt { margin-top: 25px; }
+
+.lopez {
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+
+body {
+  background-image: url('https://images.laprovence.com/media/hermes/2015-07/2015-07-07/20150707_1_5_1_1_0_obj9316500_1.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  font-family: "Pixelify Sans", sans-serif;
+  color: #ffffff; 
+  
+}
